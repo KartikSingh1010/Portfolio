@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #08171E;  
+}
+nav{
+    height: 50px;
+    background-color: #042B44;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    font-size: 22px;
+    margin-left: -80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px ;
+}
+nav ul a {
+    text-decoration: none;
+}
+.glow:hover{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: white 0 0 10px;
+}
+.firstsection{    
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 10% 0;
+}
+.rightsec img{
+    padding: 10px;
+    height: 25rem;
+    margin-left: 15%;
+}
+.leftsec{
+    display: inline-block;
+    margin-left: -18%;
+}
+.leftsec pre{
+    font-size: 40px;
+}
+.leftsec span{
+    font-size: 60px;
+    color: #71B7DC;
+}
+.dwnld button{
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.dwnld a{
+    color: black;
+    text-decoration: none;
+    margin-left: 1px;
+    border: none;
+}
+.break{
+    margin-top: 13%;
+    border: 0.5px solid white;
+}
+#About{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10%;
+}
+.about{
+    margin-top: 50px;
+}
+b{
+    font-size: 20px;
+}
+#Skills{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10%;
+}
+#sk{
+    margin-top: 40px;
+}
+b{
+    font-size: 20px;
+}
+#Projects{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10%;
+}
+#pr{
+    margin-top: 40px;
+}
+
+pre a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin-left:30vw; 
+    margin-top:10vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+h3{
+    color: #08171E;
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    color: #08171E;
+}
+form input{
+    color: black;
+    width: 90%;
+    height: 10%;
+    margin: 15px;
+    padding: 5px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+form textarea{
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    width: 90%;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
